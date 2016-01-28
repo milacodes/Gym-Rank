@@ -11,5 +11,69 @@
  * file per style scope.
  *
  */
+
+$navbar-default-bg: #56E7D8;
+
+$base: #437ADE;
+$base_font: #56E7D8;
+$border: #0FC5B2;
+
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap-custom";
+
+.homebanner{
+	background-color: $base;
+	border: 2px solid $border;
+	h2{
+		color: $base_font;
+		font-weight: bold;
+	}
+}
+
+.navbar-default{
+	.container-fluid{
+		padding: 10px 90px;
+
+		.navbar-nav > li > a{
+			color: darkslategray;
+			font-size: 1.25rem;
+			font-weight: bold;
+		}
+
+		.navbar-brand{
+			color: darkslategray;
+			font-size: 3rem;
+			font-weight: bold;
+			font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+			text-shadow: 1px 1px 0px #eee, 3px 3px 0px #707070;
+		}
+	}
+}
+
+.bodybox{
+	padding: 10px 120px;
+}
+
+.gimpic{
+	padding-top: 30px;
+	width: 60%;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

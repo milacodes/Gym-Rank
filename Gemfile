@@ -7,6 +7,7 @@ gem 'rails', '4.1.8'
 gem 'sqlite3', group: :development
 
 gem 'pg', group: :production
+
 #bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
@@ -37,6 +38,9 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'fog-aws'
 
 gem 'figaro'
+
+gem 'mini_magick'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
